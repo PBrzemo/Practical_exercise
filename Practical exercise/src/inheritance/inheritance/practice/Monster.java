@@ -1,6 +1,6 @@
 package inheritance.inheritance.practice;
 
-public class Monster {
+public abstract class Monster {
     protected double movmentSpeed;
     protected double hitPoints;
 
@@ -11,6 +11,7 @@ public class Monster {
          */
         System.out.println("preparing the Boyz for the Waaagh");
     }
+    abstract protected void desc();
 
     public Monster()
     {

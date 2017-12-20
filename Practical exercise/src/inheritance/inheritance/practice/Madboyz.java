@@ -11,6 +11,12 @@ public class Madboyz extends Monster {
          */
         System.out.println("Madboyz for the Waaagh");
     }
+
+    @Override
+    protected void desc() {
+
+    }
+
     String weaponType;
     public Madboyz()
     {
