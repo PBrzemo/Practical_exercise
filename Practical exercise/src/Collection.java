@@ -16,7 +16,7 @@ public class Collection {
         otherListWithNames.add("Marek");
         otherListWithNames.addAll(listWithNames);
         otherListWithNames.add("Marek");
-
+        System.out.println(otherListWithNames.contains("Marek"));
         System.out.println(otherListWithNames.contains("Marek"));
         System.out.println(otherListWithNames.get(0));
         System.out.println(otherListWithNames.isEmpty());
