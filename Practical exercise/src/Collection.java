@@ -22,5 +22,7 @@ public class Collection {
         System.out.println(otherListWithNames.isEmpty());
         System.out.println(otherListWithNames.indexOf("Marek"));
         System.out.println(otherListWithNames.lastIndexOf("Marek"));
+        System.out.println(otherListWithNames.lastIndexOf("Marek"));
+        System.out.println(otherListWithNames.lastIndexOf("Marek"));
     }
 }
