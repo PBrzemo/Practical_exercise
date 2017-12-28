@@ -10,6 +10,6 @@ public class Losowanie {
             x[i] = r.nextInt(100);
             System.out.println(x[i]);
         }
-        System.out.println("");
+
     }
 }
